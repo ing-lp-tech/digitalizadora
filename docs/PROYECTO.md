@@ -37,9 +37,9 @@ sys.path.insert(0, "src")
 from molde_digitizer.marker_metric import process_marker_metric
 
 process_marker_metric(
-    ["datos_ejemplo_fotos_aruco/20260909_184126.jpg"],
+    "datos_ejemplo_fotos_aruco/20260909_184126.jpg",
     output_dir="resultados/prueba",
-    marker_mm=50,
+    marker_size_mm=50,
     px_per_mm=2,
 )
 ```
