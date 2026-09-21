@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (si en algun momento se agrega build de frontend)
+node_modules/
+dist/
+
+# Resultados de pruebas locales del motor
+resultados/
+
+# Entorno / credenciales
+.env
+.env.*
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

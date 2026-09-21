@@ -35,3 +35,7 @@ Si el proyecto lo justifica, se debe aclarar si existen entornos separados (por 
 - Ninguna credencial (claves de API, contraseñas de base de datos, tokens) debe quedar escrita directamente en el código ni subida al repositorio.
 - Las credenciales de servicios externos (hosting, base de datos, etc.) deben quedar registradas en una cuenta de la organización, no en la cuenta personal del desarrollador, para evitar perder el acceso si termina la colaboración.
 - Al finalizar el proyecto (o cada hito importante), el desarrollador debe confirmar por escrito qué accesos y cuentas quedaron configurados y quién los administra.
+
+---
+
+Ver [`docs/PROYECTO.md`](docs/PROYECTO.md) para el detalle técnico de este proyecto (stack, instalación, alcance de esta entrega).
